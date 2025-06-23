@@ -3,10 +3,10 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     min-height: 100vh;
-    background-image: url('../../../static/images/image.png'); 
+    /* background-image: url('../../../static/images/image.png'); 
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,6 +121,22 @@ body {
     background-color: #0d164d;
   }
   
+  .forgot-password {
+    margin-top: 12px;
+    text-align: center;
+  }
+  
+  .forgot-password a {
+    color: #1a237e;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+    color: #0d164d;
+  }
 
   @media (max-width: 480px) {
     .login-container {
@@ -144,6 +160,15 @@ body {
     }
   
     .input-group label {
+      font-size: 13px;
+    }
+
+    .forgot-password {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .forgot-password a {
       font-size: 13px;
     }
   }
